@@ -1,1 +1,2 @@
-[![Build Status](https://travis-ci.org/wshani/devops.svg?branch=master)](https://travis-ci.org/wshani/devops)
+.. image:: https://travis-ci.org/wshani/devops.svg?branch=master
+    :target: https://travis-ci.org/wshani/devops
