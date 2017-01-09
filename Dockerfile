@@ -8,5 +8,4 @@ RUN pip install -r /app/foobar/requirements.txt
 
 #EXPOSE 5000
 
-#CMD ["python", "-m", "/app/foo"]
 CMD python -m foobar
