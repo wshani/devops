@@ -8,4 +8,6 @@ RUN pip install -r /app/foobar/requirements.txt
 
 #EXPOSE 5000
 
+VOLUME /data
+
 CMD python -m foobar
