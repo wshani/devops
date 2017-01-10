@@ -12,8 +12,7 @@ python:
 install:
     - pip install -r foobar/requirements.txt
     - docker build -t foobar .
-#    - docker run -d -p 8000:5000 foobar
-    - docker run -d -p 8000:5000 -v /data foobar
+    - docker run -d -p 8000:5000 -v /data:/data foobar
 
 script: py.test
 
